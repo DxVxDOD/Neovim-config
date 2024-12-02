@@ -16,6 +16,12 @@ return {
             "node_modules",
             "dist",
             "vendor"
+          },
+        },
+        pickers = {
+          find_files = {
+            hidden = true,
+            no_ignore = true
           }
         }
       })
