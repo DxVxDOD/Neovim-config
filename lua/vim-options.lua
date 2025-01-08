@@ -2,6 +2,7 @@ vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
 vim.keymap.set('n', '<C-s>', ':wa<CR>', {})
+vim.opt.termguicolors = true
 
 vim.cmd("set number relativenumber")
 vim.cmd("set expandtab")
