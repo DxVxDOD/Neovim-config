@@ -11,4 +11,4 @@ local oneDark = {
 	end,
 }
 
-return oneDark
+return {}

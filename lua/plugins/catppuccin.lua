@@ -6,7 +6,7 @@ local catppuccin = {
 	config = function()
 		require("catppuccin").setup({
 			flavour = "mocha", -- Options: latte, frappe, macchiato, mocha
-			transparent_background = false,
+			transparent_background = true,
 			integrations = {
 				treesitter = true,
 				native_lsp = { enabled = true },
@@ -21,4 +21,4 @@ local catppuccin = {
 	end,
 }
 
-return {}
+return catppuccin
