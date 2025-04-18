@@ -50,6 +50,7 @@ return {
       "vimdoc",
       "xml",
       "yaml",
+      "templ",
     },
     incremental_selection = {
       enable = true,
